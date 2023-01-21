@@ -1,0 +1,54 @@
+.header {
+display: flex;
+width: 100%;
+min-height: 94px;
+border-bottom: 2px solid rgba(235, 235, 240, 0.2);
+align-items: center;
+padding-left: 50px;
+background: var(--txt);
+}
+
+.header__logo{
+border-right: 2px solid rgba(235, 235, 240, 0.2);
+padding: 20px 50px 20px 0;
+margin-right: 100px;
+}
+
+.header__menu {
+
+}
+
+.header__list{
+display: flex;
+gap: 50px;
+}
+.header__item{
+
+}
+.header__link{
+color: var(--white);
+font-family: 'Noto Sans';
+font-weight: 400;
+font-size: 16px;
+line-height:26px;
+}
+
+.header__contact{
+display: flex;
+align-items: center;
+/* margin-left: auto; */
+}
+
+.header__phone{
+
+}
+
+.header__btn{
+
+cursor: pointer;
+background: none;
+background-color: var(--main);
+height: 100%;
+min-height: 94px;
+padding: 0 50px;
+}
